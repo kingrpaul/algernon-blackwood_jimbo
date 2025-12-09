@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>Paragraph missing ending punctuation.</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-009</code>
+			<reason> Unexpected value for meta property="se:url.vcs.github" element.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
